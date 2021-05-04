@@ -1,4 +1,4 @@
-![npm](https://img.shields.io/npm/v/markdown-insert-loader) ![APM](https://img.shields.io/apm/l/markdown-insert-loader)
+[![GitHub stars](https://img.shields.io/github/stars/1015355299/markdown-insert-loader)](https://github.com/1015355299/markdown-insert-loader/stargazers) [![GitHub issues](https://img.shields.io/github/issues/1015355299/markdown-insert-loader)](https://github.com/1015355299/markdown-insert-loader/issues) [![GitHub license](https://img.shields.io/github/license/1015355299/markdown-insert-loader)](https://github.com/1015355299/markdown-insert-loader/blob/main/LICENSE) ![npm](https://img.shields.io/npm/v/markdown-insert-loader)
 
 # markdown-insert-loader
 

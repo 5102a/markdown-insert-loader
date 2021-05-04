@@ -1,0 +1,40 @@
+{
+  "name": "markdown-insert-loader",
+  "version": "1.0.0",
+  "description": "markdown insert loader",
+  "main": "./dist/cjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --copy-files && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1015355299/markdown-insert-loader.git"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0",
+    "file-loader": "*"
+  },
+  "keywords": [
+    "file",
+    "insert",
+    "markdown"
+  ],
+  "author": "5102a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1015355299/markdown-insert-loader/issues"
+  },
+  "homepage": "https://github.com/1015355299/markdown-insert-loader#readme",
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "core-js": "^3.11.2"
+  }
+}

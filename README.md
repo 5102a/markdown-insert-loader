@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/v/markdown-insert-loader) ![APM](https://img.shields.io/apm/l/markdown-insert-loader)
+
 # markdown-insert-loader
 
 在 markdown 文档头部和尾部添加自定义内容

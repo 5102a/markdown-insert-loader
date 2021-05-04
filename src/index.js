@@ -4,7 +4,7 @@ import { validate } from 'schema-utils'
 import schema from './options.json'
 import normalizeFallback from './normalizeFallback'
 
-export default function loader(content) {
+export default function loader(content, map, meta) {
   const options = getOptions(this) || {}
 
   content = content.toString()
@@ -49,7 +49,6 @@ export default function loader(content) {
     const fallbackLoaderContext = Object.assign({}, this, {
       query: fallbackOptions,
     })
-
     return fallback.call(fallbackLoaderContext, result)
   }
 

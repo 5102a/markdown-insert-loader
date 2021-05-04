@@ -1,6 +1,6 @@
 {
   "name": "markdown-insert-loader",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "markdown insert loader",
   "main": "./dist/cjs.js",
   "scripts": {
@@ -13,7 +13,8 @@
   },
   "peerDependencies": {
     "webpack": "^4.0.0 || ^5.0.0",
-    "file-loader": "*"
+    "file-loader": "*",
+    "core-js": "~3.11.2"
   },
   "keywords": [
     "file",
@@ -29,12 +30,12 @@
   "dependencies": {
     "file-loader": "^6.2.0",
     "loader-utils": "^2.0.0",
-    "schema-utils": "^3.0.0"
+    "schema-utils": "^3.0.0",
+    "core-js": "^3.11.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.14.0",
-    "@babel/preset-env": "^7.14.1",
-    "core-js": "^3.11.2"
+    "@babel/preset-env": "^7.14.1"
   }
 }

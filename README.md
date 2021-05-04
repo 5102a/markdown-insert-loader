@@ -1,6 +1,6 @@
 # markdown-insert-loader
 
-在 markdown 文件头部和尾部添加自定义内容
+在 markdown 文档头部和尾部添加自定义内容
 
 基于 [file-loader](https://www.npmjs.com/package/file-loader) 二次开发的 markdown loader
 
